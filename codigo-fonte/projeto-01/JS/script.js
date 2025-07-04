@@ -1,8 +1,13 @@
-let numeros = 28061983;
-let nome = "Vagner de Oliveira Florecncio";
+let webhook = "https://v4gn320l1v32.app.n8n.cloud/webhook/animacao-css";
 
-function cliqueiNoBotao() {
+async function cliqueiNoBotao() {
   let textoInput = document.querySelector(".input-animacao").value;
-  //   let button = document.querySelector(".botao-animacao");
-  //   button.disabled = true;
+
+  let resposta = await fetch(webhook, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ pergunta: textoInput }),
+  });
+
+  console.log(resposta);
 }
