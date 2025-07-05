@@ -4,7 +4,12 @@
 
 **Tema:** Como usar IA para acelerar sua entrada no mercado
 
-**Palavra-chave:** _(adicione aqui)_
+**Palavras-chave:** Inteligência Artificial, Mercado de Trabalho, Programação, Automação
+
+**Principais pontos:**
+- O papel da IA no desenvolvimento de software moderno
+- Ferramentas e recursos para iniciantes
+- Estratégias para aprender mais rápido com IA
 
 ---
 
@@ -12,17 +17,23 @@
 
 **Tema:** Sua primeira experiência prática
 
-### 📝 Algoritmo
+### 📝 Algoritmo do Projeto
 
-1. [x] Descobrir quando o botão foi clicado
-2. [x] Pegar o que foi inscrito no input
-3. [x] Enviar para o N8N
-4. [x] Receber o que o N8N respondeu
-5. [x] Colocar na tela o que ele respondeu
+1. [x] Detectar o clique no botão
+2. [x] Capturar o valor inserido no input
+3. [x] Enviar os dados para o N8N
+4. [x] Receber a resposta do N8N
+5. [x] Exibir a resposta na tela
+
+**Dicas:**
+- Teste cada etapa individualmente para facilitar a identificação de erros.
+- Use logs para acompanhar o fluxo de dados entre as etapas.
 
 ---
 
-> _Preencha as palavras-chave e marque as etapas conforme for avançando no projeto._
+> _Preencha as palavras-chave e marque as etapas conforme for avançando no projeto. Atualize este documento com aprendizados e dúvidas para discussão nas próximas aulas._
 
 ---
+
+**Meta:** Finalizar o projeto até 06/07/2025
 
