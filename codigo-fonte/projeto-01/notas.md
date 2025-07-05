@@ -16,10 +16,13 @@
 
 1. [x] Descobrir quando o botão foi clicado
 2. [x] Pegar o que foi inscrito no input
-3. [ ] Enviar para o N8N
-4. [ ] Receber o que o N8N respondeu
-5. [ ] Colocar na tela o que ele respondeu
+3. [x] Enviar para o N8N
+4. [x] Receber o que o N8N respondeu
+5. [x] Colocar na tela o que ele respondeu
 
 ---
 
 > _Preencha as palavras-chave e marque as etapas conforme for avançando no projeto._
+
+---
+
