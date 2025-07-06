@@ -7,16 +7,25 @@ Este repositório tem como objetivo documentar toda minha jornada no curso **Dev
 ## 📚 Organização
 
 ### 🗂️ Documentação dos Módulos (`/documentos`)
-| Módulo               | Status       | Link para Notas                        |
-|----------------------|--------------|----------------------------------------|
-| Comunidade           | ✅ Concluído  | [documentos/comunidade.md](documentos/comunidade.md)       |
-| Boas-vindas          | ✅ Concluído  | [documentos/boas-vindas.md](documentos/boas-vindas.md)     |
-| Materiais de Apoio   | 📖 Em curso   | [documentos/materiais.md](documentos/materiais.md)         |
-| HTML                 | 📖 Em curso   | [documentos/html.md](documentos/html.md)                   |
-| CSS (Parte 01 e 02)  | ⏳ Pendente   | [documentos/css.md](documentos/css.md)                     |
-| VS Code              | ⏳ Pendente   | [documentos/vs-code.md](documentos/vs-code.md)             |
-| Git e GitHub         | ⏳ Pendente   | [documentos/git-github.md](documentos/git-github.md)       |
-| Trilha do Sucesso    | ⏳ Pendente   | [documentos/trilha-sucesso.md](documentos/trilha-sucesso.md)|
+
+| Módulo              | Status       | Link para Notas                                              |
+| ------------------- | ------------ | ------------------------------------------------------------ |
+| Comunidade          | ✅ Concluído | [documentos/comunidade.md](documentos/comunidade.md)         |
+| Boas-vindas         | ✅ Concluído | [documentos/boas-vindas.md](documentos/boas-vindas.md)       |
+| Materiais de Apoio  | 📖 Em curso  | [documentos/materiais.md](documentos/materiais.md)           |
+| HTML                | 📖 Em curso  | [documentos/html.md](documentos/html.md)                     |
+| CSS (Parte 01 e 02) | ⏳ Pendente  | [documentos/css.md](documentos/css.md)                       |
+| VS Code             | ⏳ Pendente  | [documentos/vs-code.md](documentos/vs-code.md)               |
+| Git e GitHub        | ⏳ Pendente  | [documentos/git-github.md](documentos/git-github.md)         |
+| Trilha do Sucesso   | ⏳ Pendente  | [documentos/trilha-sucesso.md](documentos/trilha-sucesso.md) |
+
+### 🏷️ Modelo de Status
+
+| Símbolo | Significado |
+| ------- | ----------- |
+| ✅      | Concluído   |
+| 📖      | Em curso    |
+| ⏳      | Pendente    |
 
 ---
 
