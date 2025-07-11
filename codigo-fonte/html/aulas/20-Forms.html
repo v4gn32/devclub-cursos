@@ -1,0 +1,89 @@
+<!-- FORMS
+==================================================
+ - Forms são usadas para coletar dados do usuário.
+ - Formulários são essenciais para interações em aplicações web, permitindo que os usuários enviem informações, como registros, comentários ou pesquisas.
+ - Eles são compostos por diversos elementos, como inputs, labels, botões e outros componentes que facilitam a entrada de dados.
+ - Os formulários podem ser personalizados com diferentes tipos de inputs, como texto, número, data, email, senha, entre outros, para atender às necessidades específicas de coleta de informações.
+ - Além disso, os formulários podem incluir validação de dados, mensagens de erro e feedback visual para garantir que as informações sejam inseridas corretamente antes do envio.
+ - A estrutura básica de um formulário HTML é definida pela tag `<form>`, que envolve todos os elementos do formulário.
+ - Dentro do formulário, os inputs são utilizados para capturar diferentes tipos de dados, como texto, números, datas, e-mails, senhas, entre outros.
+ - Os inputs podem ter atributos adicionais, como `placeholder`, `required`, `autofocus`, `min`, `max`, `step`, entre outros, para personalizar seu comportamento e aparência.
+ - Os formulários também podem incluir botões de envio, que permitem que os usuários enviem os dados preenchidos.
+ - Além disso, os formulários podem ser estilizados com CSS para melhorar a aparência e ausabilidade.
+ - A validação de formulários é uma parte importante do desenvolvimento web, garantindo que os dados sejam inseridos corretamente antes do envio.
+ - A validação pode ser feita tanto no lado do cliente (usando JavaScript) quanto no lado do servidor (usando linguagens como PHP, Python, etc.).
+ - Os formulários são fundamentais para a interação do usuário com aplicações web, permitindo que os usuários
+
+ - Capturar dados de entrada do usuário, como nome, email, senha, entre outros.
+ - Input -> Entrada de dados do usuário.
+
+ Action -> define para qual url sera enviado os dados do formulário quando o usuário clicar no botão de envio.
+ method -> define o método HTTP que será usado para enviar os dados do formulário, como GET ou POST.
+ - GET -> os dados do formulário são anexados à URL como parâmetros de consulta.
+ - POST -> os dados do formulário são enviados no corpo da solicitação HTTP, tornando-os mais seguros e adequados para enviar informações sensíveis, como senhas.
+ - O atributo `enctype` é usado para especificar como os dados do formulário devem ser codificados ao serem enviados para o servidor.
+ - O valor mais comum para `enctype` é `application/x-www-form-urlencoded`, que
+   é o padrão para formulários HTML. 
+-->
+
+<form action="" method="get" autocomplete="on" enctype="multipart/form-data">
+  <label>
+    Rua:
+    <input type="text" name="rua" autocomplete="street-address" />
+  </label>
+
+  <label>
+    Número:
+    <input type="number" name="numero" autocomplete="address-line2" />
+  </label>
+
+  <label>
+    Bairro:
+    <input type="text" name="bairro" autocomplete="address-level2" />
+  </label>
+
+  <label>
+    Cidade:
+    <input type="text" name="cidade" autocomplete="address-level1" />
+  </label>
+
+  <label>
+    Estado:
+    <input type="text" name="estado" autocomplete="address-level1" />
+  </label>
+
+  <label>
+    CEP:
+    <input type="text" name="cep" autocomplete="postal-code" />
+  </label>
+
+    <label>
+        Foto:
+        <input type="file" name="arquivo" />
+    </label>
+
+  <button type="reset">reset</button>
+  <button type="submit">Enviar dados</button>
+</form>
+
+<!-- 
+- O atributo `autocomplete` é usado para sugerir ao navegador como preencher automaticamente os campos do formulário com base em informações previamente inseridas pelo usuário.
+- Ele pode ser usado para melhorar a experiência do usuário, permitindo que o navegador preencha automaticamente
+  campos como nome, email, endereço, telefone, entre outros.
+- Os valores comuns para o atributo `autocomplete` incluem `name`, `email`, `tel`, `street-address`, `postal-code`, entre outros.
+- O atributo `autocomplete` pode ser aplicado a diferentes tipos de inputs, como texto, email, telefone, endereço, entre outros.
+- Ele pode ser usado em formulários de login, cadastro, checkout, entre outros, para facilitar o preenchimento de informações pelo usuário.
+- O atributo `autocomplete` é uma ferramenta útil para melhorar a usabilidade dos formulários,
+  tornando-os mais rápidos e convenientes para os usuários. 
+- O atributo `autocomplete` é usado para sugerir ao navegador como preencher automaticamente os campos do formulário com base em informações previamente inseridas pelo usuário.
+- Ele pode ser usado para melhorar a experiência do usuário, permitindo que o navegador preencha automaticamente
+  campos como nome, email, endereço, telefone, entre outros.
+- Os valores comuns para o atributo `autocomplete` incluem `name`, `email`, `tel`, `street-address`, `postal-code`, entre outros.
+- O atributo `autocomplete` pode ser aplicado a diferentes tipos de inputs, como texto, email, telefone, endereço, entre outros.
+- Ele pode ser usado em formulários de login, cadastro, checkout, entre outros, para facilitar o preenchimento de informações pelo usuário.
+- O atributo `autocomplete` é uma ferramenta útil para melhorar a usabilidade dos formulários,
+  tornando-os mais rápidos e convenientes para os usuários. 
+  - O atributo `autocomplete` é usado para sugerir ao navegador como preencher automaticamente os campos do formulário com base em informações previamente inseridas pelo usuário.
+  - Ele pode ser usado para melhorar a experiência do usuário, permitindo que o navegador preencha automaticamente
+    campos como nome, email, endereço, telefone, entre outros.  
+ -->
