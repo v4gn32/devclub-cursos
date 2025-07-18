@@ -1,0 +1,31 @@
+body {
+  background-color: darkgrey;
+}
+
+h1 {
+  color: red;
+  background-color: black;
+}
+
+p {
+  color: blue;
+  font-size: 20px;
+}
+
+button {
+  background: green;
+  border-color: darkgreen;
+}
+
+/* 
+    Meu Primeiro Estilo
+
+    Este arquivo de estilo define a aparência básica de uma página simples.
+    Inclui regras para cores, fontes e espaçamento, proporcionando uma apresentação
+    visual limpa e agradável. Ideal para projetos iniciais ou páginas de demonstração.
+
+    - Define estilos para elementos principais como body, títulos e parágrafos.
+    - Utiliza cores suaves para fundo e texto, garantindo boa legibilidade.
+    - Aplica margens e espaçamentos para melhor organização do conteúdo.
+    - Pode ser facilmente expandido para atender necessidades específicas do projeto.
+*/
