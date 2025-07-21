@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidade de Medidas no CSS</title>
+    <link rel="stylesheet" href="../CSS/6-unidadeMedidas.css" />
+  </head>
+  <body>
+    <h1>Unidades de Medidas no CSS</h1>
+    <p>
+      As unidades de medidas no CSS são utilizadas para definir tamanhos,
+      espaçamentos, fontes e outros aspectos visuais dos elementos em uma página
+      web. Elas podem ser divididas em dois grupos principais:
+      <strong>unidades absolutas</strong> e <strong>unidades relativas</strong>.
+    </p>
+
+    <h2>Unidades Absolutas</h2>
+    <ul>
+      <li>
+        <strong>px (pixel):</strong> Unidade fixa, representa um ponto na tela.
+      </li>
+      <li>
+        <strong>cm (centímetro):</strong> Medida física, usada raramente em
+        telas.
+      </li>
+      <li><strong>mm (milímetro):</strong> Medida física, pouco utilizada.</li>
+      <li><strong>in (polegada):</strong> 1in = 2.54cm.</li>
+      <li><strong>pt (ponto):</strong> 1pt = 1/72in.</li>
+      <li><strong>pc (pica):</strong> 1pc = 12pt.</li>
+    </ul>
+
+    <h2>Unidades Relativas</h2>
+    <ul>
+      <li><strong>% (porcentagem):</strong> Relativa ao elemento pai.</li>
+      <li>
+        <strong>em:</strong> Relativa ao tamanho da fonte do elemento pai.
+      </li>
+      <li>
+        <strong>rem:</strong> Relativa ao tamanho da fonte do elemento raiz
+        (<code>&lt;html&gt;</code>).
+      </li>
+      <li>
+        <strong>vw (viewport width):</strong> Relativa à largura da janela de
+        visualização.
+      </li>
+      <li>
+        <strong>vh (viewport height):</strong> Relativa à altura da janela de
+        visualização.
+      </li>
+      <li>
+        <strong>vmin:</strong> Relativa ao menor valor entre largura e altura da
+        viewport.
+      </li>
+      <li>
+        <strong>vmax:</strong> Relativa ao maior valor entre largura e altura da
+        viewport.
+      </li>
+      <li><strong>ex:</strong> Relativa à altura do "x" minúsculo da fonte.</li>
+      <li>
+        <strong>ch:</strong> Relativa à largura do caractere "0" da fonte.
+      </li>
+    </ul>
+
+    <h2>Exemplo de Uso</h2>
+    <pre>
+    <code>
+    .container {
+        width: 80vw;
+        padding: 2em;
+        font-size: 1.2rem;
+    }
+    </code>
+    </pre>
+
+    <h2>Considerações</h2>
+    <ul>
+      <li>Unidades relativas são recomendadas para layouts responsivos.</li>
+      <li>
+        <code>px</code> é útil para precisão, mas pode dificultar a adaptação em
+        diferentes dispositivos.
+      </li>
+      <li>
+        <code>em</code> e <code>rem</code> facilitam a acessibilidade e
+        escalabilidade de fontes.
+      </li>
+      <li>
+        Unidades de viewport (<code>vw</code>, <code>vh</code>) são ideais para
+        designs fluidos.
+      </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+/*
+ * Unidade de Medidas no CSS
+ * 
+ * No CSS, as unidades de medida são utilizadas para definir tamanhos, espaçamentos, fontes e outros aspectos visuais dos elementos.
+ * As principais unidades incluem:
+ * 
+ * - px (pixels): Unidade fixa, baseada em pontos da tela.
+ * - em: Relativa ao tamanho da fonte do elemento pai.
+ * - rem: Relativa ao tamanho da fonte do elemento raiz (html).
+ * - % (percentual): Relativa ao valor do elemento pai.
+ * - vw/vh: Relativas à largura (vw) e altura (vh) da viewport.
+ * - pt, cm, mm, in: Unidades físicas, usadas principalmente para impressão.
+ * 
+ * A escolha da unidade adequada depende do contexto e da responsividade desejada no layout.
+ */

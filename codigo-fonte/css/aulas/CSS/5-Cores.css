@@ -1,0 +1,112 @@
+h1 {
+  color: #ffffff;
+}
+
+.caixa-um {
+  background-color: rgb(255, 180, 150);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#texto-um {
+  color: #2e8b57;
+}
+
+#cor-um {
+  color: rgb(70, 130, 180);
+}
+
+#cor-dois {
+  color: #ff6347;
+}
+
+#cor-tres {
+  color: hsl(45, 100%, 50%);
+}
+
+button {
+  background-color: #4b0082;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.caixa-dois {
+  background: rgb(196, 196, 194);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#texto-dois {
+  color: tomato;
+}
+
+.texto-quatro {
+  color: #4b0082;
+}
+
+.texto-cinco {
+  color: aquamarine;
+}
+
+.texto-seis {
+  color: #6a5acd;
+}
+
+body {
+  background: rgb(50, 80, 80);
+}
+/*
+
+Cor em RGB - vc pode ultilizar de 0 a 255
+  RED  
+  GREEN 
+  BLUE 
+
+Cor em Hexadecimal - vc pode ultilizar codigo
+
+decimal (base 10) => 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Combinamos os numberos a partir desses dez para fazer qualquer outro numero ex: 10
+hexadecimal (base 16)=> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+Resumo sobre Cores no CSS:
+
+No CSS, cores podem ser definidas de várias formas para estilizar elementos visuais. As principais formas de declarar cores são:
+
+1. Palavras-chave:
+  Exemplos: `red`, `blue`, `tomato`, `aquamarine`. São nomes pré-definidos reconhecidos pelo CSS.
+
+2. Hexadecimal:
+  Sintaxe: `#RRGGBB` ou `#RGB`
+  Exemplo: `#ff6347` (vermelho tomate), `#4b0082` (índigo).
+  Cada par representa a intensidade de vermelho, verde e azul, variando de 00 a FF.
+
+3. RGB:
+  Sintaxe: `rgb(r, g, b)`
+  Exemplo: `rgb(70, 130, 180)`
+  Os valores vão de 0 a 255 para cada cor primária (vermelho, verde, azul).
+
+4. RGBA:
+  Sintaxe: `rgba(r, g, b, a)`
+  Exemplo: `rgba(70, 130, 180, 0.5)`
+  O último valor (a) representa a opacidade (0 = transparente, 1 = opaco).
+
+5. HSL:
+  Sintaxe: `hsl(h, s, l)`
+  Exemplo: `hsl(45, 100%, 50%)`
+  `h` é o matiz (0-360), `s` é a saturação (0-100%), `l` é a luminosidade (0-100%).
+
+6. HSLA:
+  Sintaxe: `hsla(h, s, l, a)`
+  Exemplo: `hsla(45, 100%, 50%, 0.7)`
+  Inclui o canal alfa para transparência.
+
+Dicas:
+- Use cores contrastantes para garantir legibilidade.
+- Prefira RGBA ou HSLA para efeitos de transparência.
+- Ferramentas online ajudam a escolher e converter cores.
+
+Cores são essenciais para criar identidade visual, destacar informações e melhorar a experiência do usuário em páginas web.
+
+*/
