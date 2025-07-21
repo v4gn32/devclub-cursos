@@ -13,3 +13,20 @@
  * 
  * A escolha da unidade adequada depende do contexto e da responsividade desejada no layout.
  */
+
+.avo {
+}
+
+.pai {
+  width: 500px;
+  height: 500px;
+  background: #0000ff;
+  color: #ffffff;
+}
+
+.filho {
+  width: 250px;
+  height: 250px;
+  background: blueviolet;
+  color: #ffffff;
+}

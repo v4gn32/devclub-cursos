@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cor {
+  background: #1b1b29;
+  color: #ffffff;
+}
+
+.fonte {
+  background: #ce7b91;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tamanho {
+  font-size: 18px;
+  background: #635255;
+}
+
+.estilo {
+  font-style: italic;
+  background: #536353;
+}
+
+.peso {
+  font-weight: bold;
+  background: #7f7053;
+}
+
+.alinhamento {
+  text-align: center;
+  background: #b8d3d1;
+}
+
+.transformacao {
+  text-transform: uppercase;
+  background: #d2b8d4;
+}
+
+.espaco-letras {
+  letter-spacing: 2px;
+  background: #c0fac5;
+}
+
+.espaco-linha {
+  line-height: 1.5;
+  background: #291b1b;
+  color: #ffffff;
+}
+
+.espaco-palavra {
+  word-spacing: 10px;
+  background: #ce7b91;
+}
+
+.sombra {
+  text-shadow: 2px 2px 4px #ce7b91;
+  background: #c1c1c1;
+}
+
+.decoracao {
+  text-decoration: underline;
+  background: #625380;
+}
