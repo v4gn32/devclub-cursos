@@ -1,0 +1,30 @@
+.texto-01 {
+  display: block;
+  background: #0074d9;
+  color: #ffffff;
+}
+
+.texto-02 {
+  display: inline;
+  background: #c0ffc0;
+}
+
+.texto-03 {
+  display: inline-block;
+  width: 120px;
+  background: #c0c0ff;
+}
+
+.texto-04 {
+  display: none;
+}
+
+.texto-05 {
+  background: #ffd700;
+  margin: 4px;
+}
+
+.texto-06 {
+  background: #adff2f;
+  margin: 4px;
+}

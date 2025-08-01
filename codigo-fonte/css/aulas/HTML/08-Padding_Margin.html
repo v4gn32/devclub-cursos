@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS - Margin e Padding</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../CSS/8-padding_margin.css" />
+  </head>
+  <body>
     <h1>Margin e Padding no CSS</h1>
 
     <p>
-        <strong>Margin</strong> é o espaço externo ao redor de um elemento. Ela separa o elemento dos outros à sua volta.<br>
-        <strong>Padding</strong> é o espaço interno entre o conteúdo do elemento e sua borda.
+      <strong>Margin</strong> é o espaço externo ao redor de um elemento. Ela
+      separa o elemento dos outros à sua volta.<br />
+      <strong>Padding</strong> é o espaço interno entre o conteúdo do elemento e
+      sua borda.
     </p>
 
     <h2>Exemplo de Margin</h2>
-    <div style="background: #e0e0e0; margin: 30px;">
-        Este bloco tem <strong>margin: 30px</strong>. Veja o espaço externo ao redor dele.
+    <div class="box-1">
+      Este bloco tem <strong>margin: 30px</strong>. Veja o espaço externo ao
+      redor dele.
     </div>
 
     <h2>Exemplo de Padding</h2>
-    <div style="background: #c0eaff; padding: 30px;">
-        Este bloco tem <strong>padding: 30px</strong>. Veja o espaço interno entre o texto e a borda.
+    <div class="box-2">
+      Este bloco tem <strong>padding: 30px</strong>. Veja o espaço interno entre
+      o texto e a borda.
     </div>
 
     <h2>Diferença Visual</h2>
-    <div style="background: #ffe0e0; margin: 20px; padding: 20px;">
-        Este bloco tem <strong>margin: 20px</strong> e <strong>padding: 20px</strong>.
+    <div class="box-3">
+      Este bloco tem <strong>margin: 20px</strong> e
+      <strong>padding: 20px</strong>.
     </div>
 
     <h2>Resumo</h2>
     <ul>
-        <li><strong>Margin</strong>: Espaço externo ao elemento.</li>
-        <li><strong>Padding</strong>: Espaço interno do elemento.</li>
+      <li><strong>Margin</strong>: Espaço externo ao elemento.</li>
+      <li><strong>Padding</strong>: Espaço interno do elemento.</li>
     </ul>
-</body>
+
+    <hr />
+    <div class="box-4">
+      <h3>Anotações sobre Padding e Margin</h3>
+      <ul>
+        <li>
+          <strong>Padding:</strong> Define o espaço interno do elemento.<br />
+          <code>padding: 20px;</code> — Aplica 20px de espaço em todos os
+          lados.<br />
+          <code>padding: 10px 20px;</code> — 10px em cima/baixo, 20px nas
+          laterais.
+        </li>
+        <li>
+          <strong>Margin:</strong> Define o espaço externo ao redor do
+          elemento.<br />
+          <code>margin: 30px;</code> — Aplica 30px de espaço externo em todos os
+          lados.<br />
+          <code>margin: 10px 0 20px 0;</code> — 10px em cima, 0 à direita, 20px
+          embaixo, 0 à esquerda.
+        </li>
+        <li>
+          <strong>Exemplo prático:</strong>
+          <pre>
+    .box-exemplo {
+        margin: 20px;
+        padding: 15px 30px;
+        background: #f0f0f0;
+    }
+            </pre
+          >
+          Isso cria um bloco com espaçamento externo de 20px e interno de 15px
+          em cima/baixo e 30px nas laterais.
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>

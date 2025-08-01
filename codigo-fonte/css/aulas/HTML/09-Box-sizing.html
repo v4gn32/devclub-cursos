@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 09 - Box-Sizing</title>
+    <link rel="stylesheet" href="../CSS/9-box-sizing.css" />
+  </head>
+  <body>
+    <h1>Tutorial: Entendendo o <code>box-sizing</code> no CSS</h1>
+
+    <section>
+      <h2>O que é <code>box-sizing</code>?</h2>
+      <p>
+        O <code>box-sizing</code> é uma propriedade do CSS que define como a
+        largura e a altura de um elemento são calculadas: se incluem ou não o
+        <strong>padding</strong> e a <strong>borda</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Valores possíveis</h2>
+      <ul>
+        <li>
+          <strong>content-box</strong> (padrão): Apenas o conteúdo é considerado
+          na largura e altura. O <em>padding</em> e a <em>borda</em> são
+          adicionados fora dessas dimensões.
+        </li>
+        <li>
+          <strong>border-box</strong>: O <em>padding</em> e a <em>borda</em> são
+          incluídos dentro da largura e altura definidas.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Exemplo prático</h2>
+      <div class="box-1">
+        <div class="box-2">
+          <strong>content-box</strong><br />
+          Largura: 200px<br />
+          Padding: 20px<br />
+          Borda: 5px
+        </div>
+        <div class="box-3">
+          <strong>border-box</strong><br />
+          Largura: 200px<br />
+          Padding: 20px<br />
+          Borda: 5px
+        </div>
+      </div>
+      <p>
+        No exemplo acima, ambos os blocos têm <code>width: 200px</code>,
+        <code>padding: 20px</code> e <code>border: 5px</code>.
+        <br />
+        <strong>content-box</strong>: a largura total será
+        <code>200 + 20*2 + 5*2 = 250px</code>.<br />
+        <strong>border-box</strong>: a largura total permanece
+        <code>200px</code>, pois o padding e a borda já estão inclusos.
+      </p>
+    </section>
+
+    <section>
+      <h2>Como usar no seu projeto</h2>
+      <pre><code>/* Recomenda-se usar border-box em todos os elementos */
+    * {
+        box-sizing: border-box;
+    }</code></pre>
+      <p>
+        Isso facilita o controle do layout e evita problemas de dimensionamento.
+      </p>
+    </section>
+
+    <section>
+      <h2>Resumo</h2>
+      <ul>
+        <li>
+          <code>box-sizing</code> controla como o tamanho dos elementos é
+          calculado.
+        </li>
+        <li>
+          <code>border-box</code> é mais previsível e recomendado para a maioria
+          dos projetos.
+        </li>
+        <li>
+          Use <code>* { box-sizing: border-box; }</code> para aplicar
+          globalmente.
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+    <div class="box-4">Minha Div</div>
+  </body>
+</html>

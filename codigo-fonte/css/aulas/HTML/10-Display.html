@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 10 - Display</title>
+    <link rel="stylesheet" href="../CSS/10-display.css" />
+  </head>
+  <body>
+    <div class="">
+      <h1>O que é a propriedade <code>display</code> no CSS?</h1>
+      <p>
+        A propriedade <strong>display</strong> define como um elemento HTML será
+        exibido na página. Ela controla o comportamento de layout dos elementos,
+        como blocos, linhas ou outros modelos de layout.
+      </p>
+
+      <h2>Principais valores de <code>display</code></h2>
+      <ul>
+        <li>
+          <strong>block</strong>: O elemento ocupa toda a largura disponível,
+          começando em uma nova linha. Exemplos: &lt;div&gt;, &lt;h1&gt;,
+          &lt;p&gt;.
+        </li>
+        <li>
+          <strong>inline</strong>: O elemento ocupa apenas o espaço necessário e
+          não inicia uma nova linha. Exemplos: &lt;span&gt;, &lt;a&gt;.
+        </li>
+        <li>
+          <strong>inline-block</strong>: Mistura características dos dois
+          anteriores: fica na mesma linha, mas aceita largura e altura.
+        </li>
+        <li><strong>none</strong>: O elemento não é exibido na página.</li>
+        <li>
+          <strong>flex</strong>: Ativa o modelo de layout flexível (Flexbox).
+        </li>
+        <li>
+          <strong>grid</strong>: Ativa o modelo de layout em grade (Grid).
+        </li>
+      </ul>
+
+      <h2>Exemplos de uso</h2>
+
+      <h3>1. <code>display: block</code></h3>
+      <pre><code>&lt;div style="display: block; background: #e0e0e0;"&gt;Elemento block&lt;/div&gt;</code></pre>
+      <div class="texto-01">Elemento Block</div>
+
+      <h3>2. <code>display: inline</code></h3>
+      <pre><code>&lt;span style="display: inline; background: #c0ffc0;"&gt;Elemento inline&lt;/span&gt;</code></pre>
+      <div class="texto-02">Elemento inline</div>
+
+      <h3>3. <code>display: inline-block</code></h3>
+      <pre><code>&lt;span style="display: inline-block; width: 120px; background: #c0c0ff;"&gt;Inline-block&lt;/span&gt;</code></pre>
+      <div class="texto-03">Elemento inline-block</div>
+
+      <h3>4. <code>display: none</code></h3>
+      <pre><code>&lt;div style="display: none;"&gt;Este texto não aparece&lt;/div&gt;</code></pre>
+      <div class="texto-04">Elemento none</div>
+
+      <h3>5. <code>display: flex</code></h3>
+      <pre><code>&lt;div style="display: flex;"&gt;
+        &lt;div style="background: #ffd700; margin: 4px;"&gt;Item 1&lt;/div&gt;
+        &lt;div style="background: #adff2f; margin: 4px;"&gt;Item 2&lt;/div&gt;
+      &lt;/div&gt;
+      </code></pre>
+      <div class="texto-05">Elemento Flex</div>
+      <div class="texto-06">Elemento 2 Flex</div>
+
+      <h2>Dicas</h2>
+      <ul>
+        <li>
+          Use <code>display: none</code> para esconder elementos sem removê-los
+          do HTML.
+        </li>
+        <li>
+          <code>display: flex</code> e <code>display: grid</code> são ótimos
+          para layouts modernos e responsivos.
+        </li>
+        <li>O valor padrão de <code>display</code> depende da tag HTML.</li>
+      </ul>
+    </div>
+  </body>
+</html>
