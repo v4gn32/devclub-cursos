@@ -1,12 +1,12 @@
-# 🚀 DevClub - FullStack PRO
+# DevClub - FullStack PRO
 
 Este repositório tem como objetivo documentar toda minha jornada no curso **DevClub FullStack PRO**, acompanhando os módulos, anotações, progresso e materiais de apoio. A estrutura segue um padrão organizado com pastas para imagens, arquivos de apoio e documentação.
 
 ---
 
-## 📚 Organização
+## Organização
 
-### 🗂️ Documentação dos Módulos (`/documentos`)
+### Documentação dos Módulos (`/documentos`)
 
 | Módulo              | Status       | Link para Notas                                              |
 | ------------------- | ------------ | ------------------------------------------------------------ |
@@ -19,7 +19,7 @@ Este repositório tem como objetivo documentar toda minha jornada no curso **Dev
 | Git e GitHub        | ⏳ Pendente  | [documentos/git-github.md](documentos/git-github.md)         |
 | Trilha do Sucesso   | ⏳ Pendente  | [documentos/trilha-sucesso.md](documentos/trilha-sucesso.md) |
 
-### 🏷️ Modelo de Status
+### Modelo de Status
 
 | Símbolo | Significado |
 | ------- | ----------- |
@@ -29,7 +29,7 @@ Este repositório tem como objetivo documentar toda minha jornada no curso **Dev
 
 ---
 
-## 🗂️ Estrutura de Pastas
+## Estrutura de Pastas
 
 ```
 devclub-cursos/
@@ -60,17 +60,17 @@ devclub-cursos/
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Organizar meus estudos com clareza, registrar aprendizados, facilitar revisões e aplicar os conhecimentos adquiridos em projetos reais, alinhados com o cronograma do DevClub.
 
-> 🗓️ **Acesso ao curso até:** 21/10/2025 07:06  
-> 📦 **Status geral:** Em andamento  
-> 🔐 **Privacidade:** Este repositório está definido como **privado**
+> **Acesso ao curso até:** 21/10/2025 07:06  
+> **Status geral:** Em andamento  
+> **Privacidade:** Este repositório está definido como **privado**
 
 ---
 
-## 🛠️ Como contribuir (autoajuda)
+## Como contribuir (autoajuda)
 
 - Atualize os arquivos em `/documentos` conforme você conclui cada módulo.
 - Use `/assets/img` para salvar as capas dos módulos (visuais da plataforma).
@@ -78,4 +78,4 @@ Organizar meus estudos com clareza, registrar aprendizados, facilitar revisões 
 
 ---
 
-Feito com 💻 por Vagner
+Desenvolvedor Fullstack:  Vagner de Oliveira Florencio
