@@ -5,3 +5,7 @@
 // const elements = document.getElementsByClassName("paragraph-js")
 
 // console.log(elements)
+
+const elements = document.getElementsByName("nome-completo")
+
+console.log(elements)
