@@ -6,6 +6,6 @@
 
 // console.log(elements)
 
-const elements = document.getElementsByName("nome-completo")
+const elements = document.querySelector("#main-input")
 
 console.log(elements)
