@@ -8,10 +8,12 @@
 </head>
 <body>
     <h1>JavaScript</h1>
-    <input id="main-input" placeholder="Digite algo..." name="nome-completo">
+    <input onkeypress="digiteiNoInput()" id="main-input" placeholder="Digite algo..." name="nome-completo">
     <p class="paragraph-js">Começando nossa jornada para aprender!</p>
     <p class="paragraph-js">A linguagem de programação mais versatil do mundo!</p>
-    <button class="main-button">Clique aqui</button>
+    <button  onclick="clickButton()"  class="main-button">Clique aqui</button>
+
+    <p id="add-texto"></p>
 
     <script src="./script.js"></script>
 </body>
