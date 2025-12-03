@@ -1,14 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #5E7AEF;
 }
 
 h1 {
-    color: #2f4f4f;
+    color: #fff;
     text-align: center;
     margin-top: 50px;
+    background-color: transparent;
+}
+
+.logo-moeda {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+}
+
+main {
+    background-color: #fff;
+    width: 400px;
+    margin: 0px auto;
+    padding: 44px 24px 23px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 500;
 }
