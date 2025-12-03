@@ -5,24 +5,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    outline: none;
 }
 
 body {
     background-color: #5E7AEF;
 }
 
-h1 {
-    color: #fff;
-    text-align: center;
-    margin-top: 50px;
-    background-color: transparent;
-}
-
 .logo-moeda {
     display: block;
     margin: 20px auto;
     width: 200px;
-    height: auto;
+    margin: 30px auto 0 auto;
 }
 
 main {
@@ -39,4 +33,62 @@ label {
     margin-bottom: 10px;
     color: #333;
     font-weight: 500;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555
+}
+
+.logo-brasil {
+    margin: 20px auto;
+    width: 70px;
+    height: auto;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5E7AEF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #4a63d4;
+}
+
+button:active {
+    background-color: #3b4f9c;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #5E7AEF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.seta {
+    display: block;
+    margin: 20px auto;
+    width: 30px;
+    transform: rotate(-90deg);   
 }
